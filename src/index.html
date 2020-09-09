@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>Library</title>
+  <script src="controller/init.js"></script>
+  <script src="model/Book.js"></script>
+</head>
+
+<body>
+  <h1>Public Library</h1>
+  <h2>A minimal Javascript app for managing bookd</h2>
+  <p>This app supports the following operations:</p>
+  <menu>
+    <li>
+      <a href="retrieveAllBooks.html">List all the books</a>
+    </li>
+    <li><a href="createBook.html">Add a book</a></li>
+    <li>
+      <a href="updateBook.html">Update a book</a>
+    </li>
+    <li><a href="deleteBook.html">Delete a book</a></li>
+    <li><button type="button" onclick="Book.clearData()">Clear Data</button></li>
+    <li><button type="button" onclick="Book.createTestData()">Create test Data</button></li>
+  </menu>
+</body>
+
+</html>
